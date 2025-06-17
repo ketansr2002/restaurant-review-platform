@@ -1,4 +1,4 @@
-package com.ketan.restruant.domain.entities;
+package com.ketan.restaurant.domain.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,8 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
-
-import java.io.File;
 
 @Data
 @NoArgsConstructor

@@ -1,4 +1,4 @@
-package com.ketan.restruant.domain.entities;
+package com.ketan.restaurant.domain.entities;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

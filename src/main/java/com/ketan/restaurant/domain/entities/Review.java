@@ -1,4 +1,4 @@
-package com.ketan.restruant.domain.entities;
+package com.ketan.restaurant.domain.entities;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -24,7 +24,7 @@ public class Review {
     private String content;
 
     @Field(type =  FieldType.Integer )
-    private String rating;
+    private Integer rating;
 
     @Field(type = FieldType.Date, format = DateFormat.date_hour_minute_second )
     private LocalDateTime datePosted;

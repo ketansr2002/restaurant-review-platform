@@ -1,2 +1,17 @@
-package com.ketan.restaurant.domain;public class GeoLocation {
+package com.ketan.restaurant.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class GeoLocation {
+
+    private double latitude;
+    private double longitude;
+
 }
